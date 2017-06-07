@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 
 link_libraries(GLFW glew "-framework OpenGL")
 
-add_executable(example0 example0.cpp)
+add_executable(example0 example0.cc)
+add_executable(example1 example1.cc)

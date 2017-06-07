@@ -31,3 +31,7 @@ If you're on a mac, do the following.
 2. Run `mkdir build && cd build`
 3. Run `cmake .. && make`
 
+### Examples in order
+
+0. Show what version of OpenGL you're running.
+1. Show how to create a GLFW window and context.
