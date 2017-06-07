@@ -18,7 +18,7 @@ some fun.
 2. glew (GL extension wrangler)
 3. OpenGL
 
-If you're on a mac like I am do the following.
+If you're on a mac, do the following.
 
 1. `brew install glfw`
 2. `brew install glew`
