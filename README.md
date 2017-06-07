@@ -16,15 +16,18 @@ some fun.
 
 1. GLFW (for window and context creation)
 2. glew (GL extension wrangler)
-3. OpenGL
+3. glm (GL Mathematics)
+4. OpenGL
 
 If you're on a mac, do the following.
 
 1. `brew install glfw`
 2. `brew install glew`
-3. OpenGL comes installed already.
+3. `brew install glm`
+4. OpenGL comes installed already.
    * You just have to link in your cmake like
    `link_libraries(GLFW glew "-framework OpenGL")`
+
 ### How to Build and Run
 
 1. Clone this repo and `cd` in this repo.
@@ -35,3 +38,5 @@ If you're on a mac, do the following.
 
 0. Show what version of OpenGL you're running.
 1. Show how to create a GLFW window and context.
+2. Show how to use glew.
+3. Show how to use legacy fixed function pipeline to render aka immediate mode.
